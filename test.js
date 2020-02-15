@@ -1,8 +1,4 @@
-const Sequelize = require("sequelize");
-const sequelize = new Sequelize('test', 'root', 'Janaynn@123456', {
-    host: "localhost",
-    dialect: 'mysql'
-});
+
 
 const Postagem = sequelize.define('postagens', {
     titulo: {
